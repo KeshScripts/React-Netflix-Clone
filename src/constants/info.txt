@@ -1,0 +1,2 @@
+xapi_key = ad90b21dc8a61f398db4e24da3cd2615
+base_url = themoviedb.org/3/movie/550?api_key
