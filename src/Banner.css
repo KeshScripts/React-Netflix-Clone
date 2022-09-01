@@ -1,0 +1,50 @@
+.banner{
+  display: flex;
+  flex-direction: column;
+  max-height: 435px;
+  padding-bottom: 0.3rem;
+  margin: 0;
+}
+.title{
+  font-size: 3rem;
+  padding-top: 0.3rem;
+  margin-bottom: 0.8rem;
+  font-family: "ubuntu";
+}
+.inner{
+  font-family: ubuntu;
+  margin-left: 20px;
+  padding-bottom: 0.3rem ;
+}
+.banner_button{
+  color: white;
+  padding:.5rem 2rem;
+  margin-right: 1rem;
+  border: none;
+  outline: none;
+  background: rgba(52,52,52,0.5);
+}
+.banner_button:hover{
+  background : white;
+  color: #e6e6e6;
+  transition: all 2s;
+}
+.description{
+  max-width: 500px ;
+  width: 350px;
+  font-size: 0.8rem;
+  line-height:1.3 ;
+  padding-bottom: 0.3rem;
+  font-family: 'Roboto';
+}
+.banner_fade{
+  position: fixed;
+  left: 0;
+  bottom: -2.4rem;
+  height: 7.4rem;
+  width: 100%;
+  margin: 0;
+  background:
+    linear-gradient(180deg, rgba(37, 37, 37, 1), #116); 
+    z-index: 999;
+}
