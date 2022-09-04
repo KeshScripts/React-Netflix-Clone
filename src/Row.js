@@ -22,10 +22,10 @@ function Row({ title, fetchUrl, isLargeRow }) {
   }, [fetchUrl, movies]);
   
   let opts = {
-    height : '300',
+    height : '390',
     width : "100%",
     playerVars : {
-      Autoplay : 1
+      autoplay : 1
     }
   }
   const handleClick = (movie) => {
@@ -57,7 +57,7 @@ function Row({ title, fetchUrl, isLargeRow }) {
           );
         })}
       </div>
-      {trailerUrl && <Youtube id={trailerUrl} opts={opts} /> }
+      { trailerUrl && <Youtube id={trailerUrl} opts={opts} /> }
     </div>
   );
 }

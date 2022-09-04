@@ -1,7 +1,7 @@
 .banner{
   display: flex;
   flex-direction: column;
-  max-height: 435px;
+  max-height: 464px;
   padding-bottom: 0.3rem;
   margin: 0;
 }
@@ -15,6 +15,8 @@
   font-family: ubuntu;
   margin-left: 20px;
   padding-bottom: 0.3rem ;
+  pqdding-top: 100px;
+  maz-width: 450px;
 }
 .banner_button{
   color: white;
@@ -26,7 +28,7 @@
 }
 .banner_button:hover{
   background : white;
-  color: #e6e6e6;
+  color: #111;
   transition: all 2s;
 }
 .description{
@@ -37,14 +39,14 @@
   padding-bottom: 0.3rem;
   font-family: 'Roboto';
 }
-.banner_fade{
+/* .banner_fade{
   position: fixed;
   left: 0;
   bottom: -2.4rem;
-  height: 7.4rem;
+  height: 2.4rem;
   width: 100%;
   margin: 0;
   background:
     linear-gradient(180deg, rgba(37, 37, 37, 1), #116); 
     z-index: 999;
-}
+}*/

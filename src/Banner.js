@@ -25,7 +25,7 @@ const Banner = () => {
   }, []);
 
   const styles = {
-    backgroundImage: `linear-gradient(to bottom, rgba(37,37,37,0.62), #111)
+    backgroundImage: `linear-gradient(180deg, transparent, #111)
     , url(${base_url}/${movie.backdrop_path})`,
     backgroundSize: "cover",
     backgroundPosition: "center center",
@@ -40,8 +40,8 @@ const Banner = () => {
           {movie?.name || movie?.title || movie?.original_name}{" "}
         </h2>
         <div className="banner_buttons">
-          <button className="banner_button">play</button>
-          <button className="banner_button">preview</button>
+          <button className="banner_button">Play</button>
+          <button className="banner_button">My list</button>
         </div>
         <p className="description"> {truncate(`${movie?.overview}`, 300)} </p>
       </div>
